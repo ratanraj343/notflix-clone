@@ -12,11 +12,6 @@ Built to flex on your CSS skills, impress your resume, and chill ✌️
 
 ---
 
-## 📸 Sneak Peek
-
-_Add a screenshot or GIF here (optional, but looks cool)_
-
----
 
 ## 🎯 What’s Inside?
 
