@@ -1,0 +1,44 @@
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Poppins;
+}
+
+.container-fluid {
+  background-color: #222222;
+  color: #fff;
+}
+.main_header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.651), rgba(0, 0, 0, 0.651)),
+    url(../images/netflix_bg_up.jpg);
+  height: 100vh;
+}
+.main_logo {
+  width: 150px;
+}
+.accordion .accordion_body,
+.accordion_btn {
+  background-color: rgb(41, 41, 41) !important;
+}
+/*  creating css for maobile view */
+@media screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  /*seeting the background image as per mobile view  */
+  .main_header {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.651),
+        rgba(0, 0, 0, 0.651)
+      ),
+      url(../images/netflix_bg_up.jpg);
+
+    width: 100vw;
+    height: 70vh;
+  }
+  /* managing the logi size for mobile view */
+  .main_logo {
+    width: 120px;
+  }
+}
