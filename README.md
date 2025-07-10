@@ -66,7 +66,7 @@ No copyright infringement intended.
 ## 🚀 Run it Yourself (locally)
 
 ```bash
-git clone https://github.com/ratanraj343/netflix-clone.git
-cd netflix-clone
+git clone https://github.com/ratanraj343/notflix-clone
+cd notflix-clone
 # Open index.html in your browser
 ```
