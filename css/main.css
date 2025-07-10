@@ -7,6 +7,27 @@
   padding: 0px;
   font-family: Poppins;
 }
+body {
+  padding-top: 50px; /* Give a bit more space for the larger font */
+}
+/* Optional CSS if you want to highlight it more */
+.disclaimer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: #141414; /* Netflix-style dark background */
+  color: #ca383f; /* Netflix red text */
+  font-size: 0.85rem; /* Slightly larger font */
+  font-weight: 600; /* Semi-bold */
+  padding: 8px 12px;
+  border-bottom: 1px solid #e39599;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
 
 .container-fluid {
   background-color: #222222;
@@ -40,5 +61,10 @@
   /* managing the logi size for mobile view */
   .main_logo {
     width: 120px;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    padding-top: 60px;
   }
 }
