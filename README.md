@@ -8,7 +8,7 @@ Built to flex on your CSS skills, impress your resume, and chill ✌️
 
 ## 🔗 Live Site
 
-🎬 [https://ratanflix.netlify.app/](https://ratanflix.netlify.app/)
+🎬 [https://ratan-notflix.vercel.app/](https://ratan-notflix.vercel.app/)
 
 ---
 
