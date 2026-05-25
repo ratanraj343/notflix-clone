@@ -35,7 +35,7 @@ body {
 }
 .main_header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.651), rgba(0, 0, 0, 0.651)),
-    url(../images/netflix_bg_up.jpg);
+    url(../images/notflix_bg_up.jpg);
   height: 100vh;
 }
 .main_logo {
